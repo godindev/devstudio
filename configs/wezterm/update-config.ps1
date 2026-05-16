@@ -1,0 +1,2 @@
+Copy-Item -Path (Join-Path $PSScriptRoot "wezterm.lua") -Destination (Join-Path $env:USERPROFILE ".devstudio\configs\wezterm\wezterm.lua") -Force
+Write-Host "WezTerm configs atualizadas!" -ForegroundColor Green
